@@ -1,0 +1,36 @@
+.background {
+    background-color:rgb(180, 199, 255)
+}
+
+.header {
+    color:rgb(241, 167, 93);
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.play {
+    color:rgb(241, 167, 93);
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.options {
+    color:rgb(241, 167, 93);
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
