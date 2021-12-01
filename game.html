@@ -2,7 +2,26 @@
     <html>
         <head>
             <link href="game.css" rel="stylesheet">
+            <script>
+                var baguettes = 0;
+                function plusBaguette() {
+                 var count = document.getElementById('count');
+                 baguettes++;
+                 count.innerHTML = baguettes;
+}
+            </script>
         </head>
     <body class="background">
+        <div class="numberBaguette">
+            <h1 id="count" 1>You have:</h1> 
+
+          </div>
+
+          <div class="baguettepic">
+              <img class="baguette" src="baguette.png" alt="Baguette" onclick="plusBaguette()">
+        </div>
+        <a href="index.html">
+            Back
+         </a>
     </body>
 </html>

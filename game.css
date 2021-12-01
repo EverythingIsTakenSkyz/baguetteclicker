@@ -1,3 +1,23 @@
 .background {
     background-color:rgb(180, 199, 255)
 }
+
+.numberBaguette {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+        width: 25%;
+        color: white;
+}
+
+.baguettepic {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
